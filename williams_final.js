@@ -15,7 +15,7 @@ var font
 
 function preload(){
     table = loadTable("assets/stars_shorter.csv")
-    font = loadFont('/assets/inconsolata.otf');
+    font = loadFont('/assets/inconsolata-Regular.ttf');
 }
 
 function Star(table, index){
