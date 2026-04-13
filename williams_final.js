@@ -15,7 +15,6 @@ var font
 
 function preload(){
     table = loadTable("assets/stars_shorter.csv")
-    font = loadFont('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap')
 }
 
 function Star(table, index){
@@ -118,7 +117,7 @@ function setup(){
     buttonC.position(583,2)
     buttonC.mousePressed(rcam)
 
-    textFont(font)
+    textFont('Inconsolata')
     textSize(100)
     textAlign(CENTER, CENTER)
 
