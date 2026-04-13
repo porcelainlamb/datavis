@@ -15,7 +15,7 @@ var font
 
 function preload(){
     table = loadTable("assets/stars_shorter.csv")
-    font = loadFont('https://fonts.gstatic.com/s/inconsolata/v32/QlddNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWxAsQ.woff2')
+    font = loadFont('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap')
 }
 
 function Star(table, index){
